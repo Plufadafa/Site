@@ -36,7 +36,7 @@ echo "
     <li class=\"divider\"></li>
     <li $greenhouse3><a href=\"greenhouse-3.php\"><i class=\"material-icons left\">web_asset</i>Green House 3</a></li>
 </ul>
-<div class = \"navbar-fixed\">
+<div class = \"navbar-fixed grey darken-1\">
     <nav>
         <div class = \"nav-wrapper container\">
             <a href = \"index.php\" class = \"brand-logo\">Dashboard</a>
