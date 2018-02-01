@@ -1,4 +1,4 @@
-<footer class="page-footer orange">
+<footer class="page-footer grey">
 
 
 </footer>
