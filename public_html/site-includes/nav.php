@@ -13,7 +13,7 @@ echo "
 <div class = \"navbar-fixed \">
     <nav>
         <div class = \"nav-wrapper margin 0.2rem\">
-            <a href = \"index.php\" class = \"brand-logo\">Dashboard</a>
+            <a href = \"index.php\" class = \"brand-logo\">}{</a>
             <a href = \"#\" data-activates = \"mobile-demo\" class = \"button-collapse\"><i class = \"material-icons\">menu</i></a>
             
         </div>

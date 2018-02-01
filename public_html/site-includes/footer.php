@@ -7,10 +7,13 @@
 <script src="js/materialize.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/Chart.bundle.js"></script>
+
+<script src="js/jquery.scrollify.js"></script>    
+
 <script>
                 $(document).ready(function () {
                     $(".dropdown-button").dropdown({belowOrigin: true});
                     $(".button-collapse").sideNav();
-                    getSolarData("outside_shed_solar");
+                    
                 });
 </script>
