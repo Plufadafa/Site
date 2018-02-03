@@ -9442,7 +9442,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .valign-demo {
-    height: 50vh;
+    height: 100vh;
 }
 
 .valign-half {
@@ -9450,5 +9450,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     z-index: 0;
     
     
+}
+
+.carouselWide {
+    width: 100%;
 }
 
