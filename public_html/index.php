@@ -149,7 +149,7 @@
                                 <span class="card-title activator grey-text text-darken-4">Software Developer: Java<i class="material-icons right">more_vert</i></span>
                                 <p>Kent Police</p>
                             </div>
-                            <div class="card-reveal flow-text">
+                            <div class="card-reveal flow-text longText">
                                 <span class="card-title grey-text text-darken-4">A year in industry at Kent Police<i class="material-icons right">close</i></span>
                                 <p>From December 2016 to July 2017 I worked as part of Kent Police's software development team. The role of the team was to create and maintain applications which were used across the force.
                                     Professionalism was required in everything I did, from the quality of my code, which needed to function (and be easily supported) 24/7, to the levels of security which needed to be maintained whilst working in a headquarters.
@@ -168,9 +168,9 @@
                                 <span class="card-title activator grey-text text-darken-4">Computer Science with a year in industry<i class="material-icons right">more_vert</i></span>
                                 <p>University of Kent</p>
                             </div>
-                            <div class="card-reveal flow-text">
-                                <span class="card-title grey-text text-darken-4">A year in industry at Kent Police<i class="material-icons right">close</i></span>
-                                <p class="longText">From December 2016 to July 2017 I worked as part of Kent Police's software development team. The role of the team was to create and maintain applications which were used across the force.
+                            <div class="card-reveal flow-text ">
+                                <span class="card-title grey-text text-darken-4 ">A year in industry at Kent Police<i class="material-icons right">close</i></span>
+                                <p class=''>From December 2016 to July 2017 I worked as part of Kent Police's software development team. The role of the team was to create and maintain applications which were used across the force.
                                     Professionalism was required in everything I did, from the quality of my code, which needed to function (and be easily supported) 24/7, to the levels of security which needed to be maintained whilst working in a headquarters.
                                     Having worked for the Police means I have been security checked to work with "confidential" documents, so integrity when working with sensitive information is something I' very much used to. </p>
                                 <span class="card-title grey-text text-darken-4">Skills developed</span>
@@ -210,7 +210,7 @@
                     $.scrollify({
                         section: ".example-classname",
                         scrollSpeed: 1500,
-                        scrollbars: true,
+                        scrollbars: false,
                         overflowScroll: true,
                         standardScrollElements: ".longText",
                     });
@@ -244,6 +244,12 @@
                 $('.tooltipped').tooltip({delay: 50});
 
                 $('.modal').modal();
+
+                $("div").each(function () {
+                    if ($(this).hasScrollBar()) {
+                        $(this).addClass('longText');
+                    }
+                });
 
 
             });
