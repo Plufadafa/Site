@@ -20,7 +20,7 @@
                     <ul class="section table-of-contents">
                         <li><a id="link0" href="#introduction">Splash</a></li>
                         <li><a id="link1" href="#second">Skills</a></li>
-                        <li><a id="link2" href="#third">Third</a></li>
+                        <li><a id="link2" href="#third">Experience</a></li>
                         <li><a id="link3" href="#fourth">Fourth</a></li>
                     </ul>
                 </div>
@@ -41,8 +41,6 @@
                 <div class="valign-wrapper valign-demo hide-on-small-only center ">
                     <div class ="side-barjack1 hide-on-small-only"></div>
                     <div id="second" class=" container section scrollspy center" style=" width: 60%; margin-top: 10%; margin-bottom: 5%; ">
-
-
                         <div class=" center">
                             <div class=" grey white-text z-depth-5 tooltipped" data-tooltip='Mouse-over a logo to learn more' href="#one!">
                                 <div class="row ">
@@ -55,7 +53,7 @@
                                     <path fill="#0074BD" d="M52.581 67.817s-3.284 1.911 2.341 2.557c6.814.778 10.297.666 17.805-.753 0 0 1.979 1.237 4.735 2.309-16.836 7.213-38.104-.418-24.881-4.113zM50.522 58.402s-3.684 2.729 1.945 3.311c7.28.751 13.027.813 22.979-1.103 0 0 1.373 1.396 3.536 2.157-20.352 5.954-43.021.469-28.46-4.365z"></path><path fill="#EA2D2E" d="M67.865 42.431c4.151 4.778-1.088 9.074-1.088 9.074s10.533-5.437 5.696-12.248c-4.519-6.349-7.982-9.502 10.771-20.378.001 0-29.438 7.35-15.379 23.552z"></path><path fill="#0074BD" d="M90.132 74.781s2.432 2.005-2.678 3.555c-9.716 2.943-40.444 3.831-48.979.117-3.066-1.335 2.687-3.187 4.496-3.576 1.887-.409 2.965-.334 2.965-.334-3.412-2.403-22.055 4.719-9.469 6.762 34.324 5.563 62.567-2.506 53.665-6.524zM54.162 48.647s-15.629 3.713-5.534 5.063c4.264.57 12.758.439 20.676-.225 6.469-.543 12.961-1.704 12.961-1.704s-2.279.978-3.93 2.104c-15.874 4.175-46.533 2.23-37.706-2.038 7.463-3.611 13.533-3.2 13.533-3.2zM82.2 64.317c16.135-8.382 8.674-16.438 3.467-15.353-1.273.266-1.845.496-1.845.496s.475-.744 1.378-1.063c10.302-3.62 18.223 10.681-3.322 16.345 0 0 .247-.224.322-.425z"></path><path fill="#EA2D2E" d="M72.474 1.313s8.935 8.939-8.476 22.682c-13.962 11.027-3.184 17.313-.006 24.498-8.15-7.354-14.128-13.828-10.118-19.852 5.889-8.842 22.204-13.131 18.6-27.328z"></path><path fill="#0074BD" d="M55.749 87.039c15.484.99 39.269-.551 39.832-7.878 0 0-1.082 2.777-12.799 4.981-13.218 2.488-29.523 2.199-39.191.603 0 0 1.98 1.64 12.158 2.294z"></path><path fill="#EA2D2E" d="M94.866 100.181h-.472v-.264h1.27v.264h-.47v1.317h-.329l.001-1.317zm2.535.066h-.006l-.468 1.251h-.216l-.465-1.251h-.005v1.251h-.312v-1.581h.457l.431 1.119.432-1.119h.454v1.581h-.302v-1.251zM53.211 115.037c-1.46 1.266-3.004 1.978-4.391 1.978-1.974 0-3.045-1.186-3.045-3.085 0-2.055 1.146-3.56 5.738-3.56h1.697v4.667h.001zm4.031 4.548v-14.077c0-3.599-2.053-5.973-6.997-5.973-2.886 0-5.416.714-7.473 1.622l.592 2.493c1.62-.595 3.715-1.147 5.771-1.147 2.85 0 4.075 1.147 4.075 3.521v1.779h-1.424c-6.921 0-10.044 2.685-10.044 6.723 0 3.479 2.058 5.456 5.933 5.456 2.49 0 4.351-1.028 6.088-2.533l.316 2.137h3.163v-.001zM70.694 119.585h-5.027l-6.051-19.689h4.391l3.756 12.099.835 3.635c1.896-5.258 3.24-10.596 3.912-15.733h4.271c-1.143 6.481-3.203 13.598-6.087 19.688zM89.982 115.037c-1.465 1.266-3.01 1.978-4.392 1.978-1.976 0-3.046-1.186-3.046-3.085 0-2.055 1.149-3.56 5.736-3.56h1.701v4.667h.001zm4.033 4.548v-14.077c0-3.599-2.059-5.973-6.999-5.973-2.889 0-5.418.714-7.475 1.622l.593 2.493c1.62-.595 3.718-1.147 5.774-1.147 2.846 0 4.074 1.147 4.074 3.521v1.779h-1.424c-6.923 0-10.045 2.685-10.045 6.723 0 3.479 2.056 5.456 5.93 5.456 2.491 0 4.349-1.028 6.091-2.533l.318 2.137h3.163v-.001zM37.322 122.931c-1.147 1.679-3.005 3.008-5.037 3.757l-1.989-2.345c1.547-.794 2.872-2.075 3.489-3.269.532-1.063.753-2.43.753-5.701v-22.482h4.284v22.173c0 4.375-.348 6.144-1.5 7.867z"></path>
                                     </svg>
 
- 
+
 
                                     <svg class="col 1 tooltipped" data-position="bottom" data-tooltip="Used heavilly in final year project. XHTML experience in professional setting." style="height: 10vh" viewBox="0 0 128 128">
                                     <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path><path fill="#F16529" d="M64 118.704l29.244-8.108 6.881-77.076h-36.125z"></path><path fill="#EBEBEB" d="M64 66.978h-14.641l-1.01-11.331h15.651v-11.064h-27.743l.264 2.969 2.72 30.489h24.759zM64 95.711l-.049.013-12.321-3.328-.788-8.823h-11.107l1.55 17.372 22.664 6.292.051-.015z"></path><path d="M28.034 1.627h5.622v5.556h5.144v-5.556h5.623v16.822h-5.623v-5.633h-5.143v5.633h-5.623v-16.822zM51.816 7.206h-4.95v-5.579h15.525v5.579h-4.952v11.243h-5.623v-11.243zM64.855 1.627h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502v-16.822zM86.591 1.627h5.624v11.262h7.907v5.561h-13.531v-16.823z"></path><path fill="#fff" d="M63.962 66.978v11.063h13.624l-1.284 14.349-12.34 3.331v11.51l22.682-6.286.166-1.87 2.6-29.127.27-2.97h-2.982zM63.962 44.583v11.064h26.725l.221-2.487.505-5.608.265-2.969z"></path>
@@ -119,100 +117,139 @@
                                     <div class="row">
                                         <div class="col s3"><h6>Applications</h6></div>
                                     </div>
-                                    <img class="col 1 tooltipped" data-position="bottom" data-tooltip="Netbeans is my regular IDE. Used in both professional and academic setting." src="svg/netbeans.svg" style="height: 10vh; width: 10vh; "/>
+                                    <img class="col 1 tooltipped" data-position="bottom" data-tooltip="Netbeans is my regular IDE. Used in both professional and academic settings." src="svg/netbeans.svg" style="height: 10vh; width: 10vh; "/>
                                     <img class="col 1 tooltipped" data-position="bottom" data-tooltip="Brackets is my favourite Notepad++ alternative. Used for lightweight scripts/tasks." src="svg/brackets.svg" style="height: 10vh; width: 10vh; "/>
                                     <img class="col 1 tooltipped" data-position="bottom" data-tooltip="3 years experience, used in professional setting and my preferred DB design tool." src="images/mysql_workbench.png" style="height: 8vh; width: 10vh; "/>
                                 </div>
-
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+
+            <div  class="parallax-container">
+                <div class="parallax example-classname"><img src="images/sky.jpg"></div>
+                <div class="valign-wrapper valign-demo ">
+                    <div id="third" class="container section scrollspy ">
+
+                        <div class="card-tabs" >
+                            <ul class="tabs tabs-fixed-width" style="background: rgba(255, 255, 255, 0);" >
+                                <li class="tab"><a class="active black-text boldTab" href="#PoliceCard">2016 - 2017</a></li>
+                                <li class="tab"><a class="black-text " href="#UniCard">2014 - present</a></li>
+                                <li class="tab"><a class="black-text " href="#test6">2015 Summer</a></li>
+                            </ul>
                         </div>
 
+                        <div id="PoliceCard" class="card large">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator tooltipped" data-position="bottom" data-tooltip="More info" src="images/KentPoliceLogo.png" style="height: 35vh;" >
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Software Developer: Java<i class="material-icons right">more_vert</i></span>
+                                <p>Kent Police</p>
+                            </div>
+                            <div class="card-reveal flow-text">
+                                <span class="card-title grey-text text-darken-4">A year in industry at Kent Police<i class="material-icons right">close</i></span>
+                                <p>From December 2016 to July 2017 I worked as part of Kent Police's software development team. The role of the team was to create and maintain applications which were used across the force.
+                                    Professionalism was required in everything I did, from the quality of my code, which needed to function (and be easily supported) 24/7, to the levels of security which needed to be maintained whilst working in a headquarters.
+                                    Having worked for the Police means I have been security checked to work with "confidential" documents, so integrity when working with sensitive information is something I' very much used to. </p>
+                                <span class="card-title grey-text text-darken-4">Skills developed</span>
+                                <div class="chip">Member of an Agile team</div> <div class="chip">Creation / maintenance of large database experience</div> <div class="chip">Requirements gathering</div> <div class="chip">Presentation and customer facing skills</div>
+                                <div class="chip">Experience writing Java in a professional environment</div> <div class="chip">JSF knowledge</div> <div class="chip">MVC framework experience</div> <div class="chip">Met time schedules</div>
+                            </div>
+                        </div>
 
-
+                        <div id="UniCard" class="card large">
+                            <div class="card-image waves-effect waves-block waves-light center-align">
+                                <img class="activator center-align" src="svg/ukc.svg" style="height: 30vh;">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Computer Science with a year in industry<i class="material-icons right">more_vert</i></span>
+                                <p>University of Kent</p>
+                            </div>
+                            <div class="card-reveal flow-text">
+                                <span class="card-title grey-text text-darken-4">A year in industry at Kent Police<i class="material-icons right">close</i></span>
+                                <p class="longText">From December 2016 to July 2017 I worked as part of Kent Police's software development team. The role of the team was to create and maintain applications which were used across the force.
+                                    Professionalism was required in everything I did, from the quality of my code, which needed to function (and be easily supported) 24/7, to the levels of security which needed to be maintained whilst working in a headquarters.
+                                    Having worked for the Police means I have been security checked to work with "confidential" documents, so integrity when working with sensitive information is something I' very much used to. </p>
+                                <span class="card-title grey-text text-darken-4">Skills developed</span>
+                                <div class="chip">Member of an Agile team</div> <div class="chip">Creation / maintenance of large database experience</div> <div class="chip">Requirements gathering</div> <div class="chip">Presentation and customer facing skills</div>
+                                <div class="chip">Experience writing Java in a professional environment</div> <div class="chip">JSF knowledge</div> <div class="chip">MVC framework experience</div> <div class="chip">Met time schedules</div>
+                            </div>
+                        </div>
 
 
 
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div  class="parallax-container">
-            <div class="parallax example-classname"><img src="images/waterfall.jpeg"></div>
-            <div class="valign-wrapper valign-demo ">
-                <div class ="side-barjack2 hide-on-small-only"></div>
-                <div id="third" class="container section scrollspy ">
-                    <h1 class="header center white-text">Jack Noone</h1>
-                    <h5 class ="center white-text"> Computer Science undergraduate</h5>
+            <div  class="parallax-container">
+                <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
+                <div class="valign-wrapper valign-demo ">
+                    <div id="fourth" class="container section scrollspy ">
+                        <h1 class="header center white-text">Jack Noone</h1>
+                        <h5 class ="center white-text"> Computer Science undergraduate</h5>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div  class="parallax-container">
-            <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
-            <div class="valign-wrapper valign-demo ">
-                <div id="fourth" class="container section scrollspy ">
-                    <h1 class="header center white-text">Jack Noone</h1>
-                    <h5 class ="center white-text"> Computer Science undergraduate</h5>
-                </div>
-            </div>
-        </div>
+        </main>
+    </body>
+    <?php
+    include "site-includes/footer.php";
+    ?>
 
-    </main>
-</body>
-<?php
-include "site-includes/footer.php";
-?>
-
-<script>
-    $(document).ready(function () {
+    <script>
         $(document).ready(function () {
-            $('.parallax').parallax();
+            $(document).ready(function () {
+                $('.parallax').parallax();
 
-            $(function () {
-                $.scrollify({
-                    section: ".example-classname",
-                    scrollSpeed: 1500,
-                    scrollbars: false,
-                    overflowScroll: false,
+                $(function () {
+                    $.scrollify({
+                        section: ".example-classname",
+                        scrollSpeed: 1500,
+                        scrollbars: true,
+                        overflowScroll: true,
+                        standardScrollElements: ".longText",
+                    });
                 });
+                $("#link0").click(function (e) {
+                    e.preventDefault();
+                    $.scrollify.move(0);
+                });
+
+                $("#link1").click(function (e) {
+                    e.preventDefault();
+                    $.scrollify.move(1);
+                });
+
+                $("#link2").click(function (e) {
+                    e.preventDefault();
+                    $.scrollify.move(2);
+                });
+
+                $("#link3").click(function (e) {
+                    e.preventDefault();
+                    $.scrollify.move(3);
+                });
+
+
+                $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+                $('.scrollspy').scrollSpy();
+
+
+                $('.tooltipped').tooltip({delay: 50});
+
+                $('.modal').modal();
+
+
             });
-            $("#link0").click(function (e) {
-                e.preventDefault();
-                $.scrollify.move(0);
-            });
-
-            $("#link1").click(function (e) {
-                e.preventDefault();
-                $.scrollify.move(1);
-            });
-
-            $("#link2").click(function (e) {
-                e.preventDefault();
-                $.scrollify.move(2);
-            });
-
-            $("#link3").click(function (e) {
-                e.preventDefault();
-                $.scrollify.move(3);
-            });
-
-
-            $('.carousel.carousel-slider').carousel({fullWidth: true});
-
-            $('.scrollspy').scrollSpy();
-
-
-            $('.tooltipped').tooltip({delay: 50});
-
-            $('.modal').modal();
-
 
         });
-
-    });
-</script>
+    </script>
 
 
 </html>
