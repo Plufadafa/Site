@@ -7,6 +7,7 @@
 <script src="js/materialize.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/Chart.bundle.js"></script>
+<script src="js/hasScrollbar.js"></script>
 
 <script src="js/jquery.scrollify.js"></script>    
 

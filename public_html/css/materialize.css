@@ -5004,7 +5004,7 @@ small {
     background-color: #fff;
     margin: 0 auto;
     white-space: nowrap;
-    font-weight: 300;
+    
    
 }
 
@@ -5060,7 +5060,7 @@ small {
     width: 100%;
     height: 100%;
     padding: 0 24px;
-    font-weight: bold;
+    
     text-overflow: ellipsis;
     overflow: hidden;
     -webkit-transition: color .28s ease;
@@ -5084,7 +5084,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 3px;
-    background-color: black;
+    background-color: #2e2e2e;
     will-change: left, right;
 }
 
@@ -9506,4 +9506,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .boldTab {
     font-weight: 300;
+}
+
+.boxImg{
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
