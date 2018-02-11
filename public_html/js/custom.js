@@ -17,7 +17,38 @@ function updateSolarDisplay(todaysWatts, elemID) {
             clearInterval(id);
         } else {
             percent++;
-            elem.innerHTML = 'We have generated ' + percent * 1 + '% of our daily usage! <br>Total Generated: '+todaysWatts+' Watts<br>Daily Usage: '+dailyUsage+' Watts';
+            elem.innerHTML = 'We have generated ' + percent * 1 + '% of our daily usage! <br>Total Generated: ' + todaysWatts + ' Watts<br>Daily Usage: ' + dailyUsage + ' Watts';
         }
     }
+}
+
+function removeActiveTab() {
+
+    var x = document.getElementsByClassName("active");
+
+    $(x).removeClass("active");
+
+}
+
+function getActiveTab(index) {
+    var e = "";
+    switch (index) {
+        case 0:
+            e = "#link0";
+            break;
+        case 1:
+            e = "#link1";
+            break;
+        case 2:
+            e = "#link2";
+            break;
+        case 3:
+            e = "#link3";
+            break;
+        case 4:
+            e = "#link4";
+            break;
+    }
+    
+   return e;
 }

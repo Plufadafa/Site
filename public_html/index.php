@@ -22,26 +22,26 @@
                         <li><a id="link1" class="scroll" href="#2">Skills</a></li>
                         <li><a id="link2" class="scroll" href="#3">Experience</a></li>
                         <li><a id="link3" class="scroll" href="#4">IoT work</a></li>
-                        <li><a id="link4" class="scroll" href="fifth">Erlang work</a></li>
+                        <li><a id="link4" class="scroll" href="#5">Erlang work</a></li>
                     </ul>
                 </div>
             </ul>
 
-            <div  class="parallax-container">
+            <div id="" class="parallax-container section scrollspy">
                 <div id="wee" class="parallax example-classname"><img src="images/mountains.jpg"></div>
                 <div class="valign-wrapper valign-demo ">
-                    <div id="introduction" class="container section scrollspy ">
+                    <div id="introduction" class="container  ">
                         <h1 class="header center white-text">Jack Noone</h1>
                         <h5 class ="center white-text"> Computer Science undergraduate</h5>
                     </div>
                 </div>
             </div>
 
-            <div  class="parallax-container">
+            <div id="" class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/Computer.jpg"></div>
                 <div class="valign-wrapper valign-demo hide-on-small-only center ">
                     <div class ="side-barjack1 hide-on-small-only"></div>
-                    <div id="second" class=" container section scrollspy center" style=" width: 60%; margin-top: 10%; margin-bottom: 5%; ">
+                    <div id="skills" class=" container center" style=" width: 60%; margin-top: 10%; margin-bottom: 5%; ">
                         <div class=" center">
                             <div class=" grey white-text z-depth-5 " href="#one!">
 
@@ -125,11 +125,11 @@
             </div>
 
 
-            <div  class="parallax-container">
+            <div id="" class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/sky.jpg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
-                    <div id="third" class="container section scrollspy ">
+                    <div id="third" class="container">
 
                         <div class="card-tabs" style="margin-top: 10vh;" >
                             <ul class="tabs tabs-fixed-width" style="background: rgba(255, 255, 255, 0);" >
@@ -213,11 +213,11 @@
                 </div>
             </div>
 
-            <div  class="parallax-container">
+            <div id="" class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
-                    <div id="fourth" class="container center-align scrollspy">
+                    <div id="fourth" class="container center-align">
                         <section data-section-name="f"></section>
                         <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
                         <div class="row fixed"style="margin-top: 10px;">
@@ -258,67 +258,101 @@
 
     <script>
         $(document).ready(function () {
-            $(document).ready(function () {
-                $('.parallax').parallax();
+
+            $('.parallax').parallax();
 
 
 
 
-                $(function () {
-                    $.scrollify({
-                        section: ".example-classname",
-                        scrollSpeed: 1500,
-                        scrollbars: false,
-                        overflowScroll: false,
-                        standardScrollElements: ".longText",
-                    });
-                });
-                $("#link0").click(function (e) {
-                    e.preventDefault();
-                    $.scrollify.move(0);
-                });
+            $(function () {
+                $.scrollify({
+                    section: ".example-classname",
+                    scrollSpeed: 1500,
+                    scrollbars: false,
+                    overflowScroll: false,
+                    standardScrollElements: ".longText",
+                    before: function (nextIndex, elements) {
+                        removeActiveTab();
+                        $(getActiveTab(nextIndex)).addClass("active");
+                    },
+                    after: function (index) {
+                        removeActiveTab();
+                        $(getActiveTab(index)).addClass("active");
 
-                $("#link1").click(function (e) {
-                    e.preventDefault();
-                    $.scrollify.move(1);
-                });
-
-                $("#link2").click(function (e) {
-                    e.preventDefault();
-                    $.scrollify.move(2);
-                });
-
-                $("#link3").click(function (e) {
-                    e.preventDefault();
-                    $.scrollify.move(3);
-                });
-
-
-                $("#link").click(function (e) {
-                    e.preventDefault();
-                    $.scrollify.move(3);
-                });
-
-
-                $('.carousel.carousel-slider').carousel({fullWidth: true});
-
-                $('.scrollspy').scrollSpy();
-
-
-                $('.tooltipped').tooltip({delay: 50});
-
-                $('.modal').modal();
-
-                $("div").each(function () {
-                    if ($(this).hasScrollbar() && $(this).hasClass("card-reveal")) {
-                        $(this).addClass('longText');
                     }
                 });
-
-
             });
 
+
+            $.scrollify({
+                section: ".panel",
+                before: function (nextIndex, elements) {
+                    alert('before event was sent');
+                },
+                after: function (index) {
+                    alert('after is triggered here');
+                }
+            });
+
+
+
+
+            $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+            $('.scrollspy').scrollSpy();
+
+
+            $('.tooltipped').tooltip({delay: 50});
+
+            $('.modal').modal();
+
+            $("div").each(function () {
+                if ($(this).hasScrollbar() && $(this).hasClass("card-reveal")) {
+                    $(this).addClass('longText');
+                }
+            });
         });
+
+
+
+        $("#link0").click(function (e) {
+
+            e.preventDefault();
+            $.scrollify.move(0);
+            removeActiveTab();
+            $("#link0").addClass("active");
+
+        });
+
+        $("#link1").click(function (e) {
+            e.preventDefault();
+            $.scrollify.move(1);
+            removeActiveTab();
+            $("#link1").addClass("active");
+        });
+
+        $("#link2").click(function (e) {
+            e.preventDefault();
+            $.scrollify.move(2);
+            removeActiveTab();
+            $("#link2").addClass("active");
+        });
+
+        $("#link3").click(function (e) {
+            e.preventDefault();
+            $.scrollify.move(3);
+            removeActiveTab();
+            $("#link3").addClass("active");
+        });
+
+
+        $("#link").click(function (e) {
+            e.preventDefault();
+            $.scrollify.move(3);
+            removeActiveTab();
+            $("#link3").addClass("active");
+        });
+
     </script>
 
 
