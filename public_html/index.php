@@ -18,7 +18,7 @@
             <ul id="slide-out" class=" side-nav fixed container">
                 <div class="col hide-on-small-only m3 l2 right-align">
                     <ul class="section table-of-contents">
-                        <li><a id="link0" class="scroll" href="#1">Splash</a></li>
+                        <li><a id="link0" class="scroll active" href="#1">Splash</a></li>
                         <li><a id="link1" class="scroll" href="#2">Skills</a></li>
                         <li><a id="link2" class="scroll" href="#3">Experience</a></li>
                         <li><a id="link3" class="scroll" href="#4">IoT work</a></li>
@@ -27,7 +27,7 @@
                 </div>
             </ul>
 
-            <div id="" class="parallax-container section scrollspy">
+            <div class="parallax-container section scrollspy">
                 <div id="wee" class="parallax example-classname"><img src="images/mountains.jpg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div id="introduction" class="container  ">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div id="" class="parallax-container section scrollspy">
+            <div class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/Computer.jpg"></div>
                 <div class="valign-wrapper valign-demo hide-on-small-only center ">
                     <div class ="side-barjack1 hide-on-small-only"></div>
@@ -125,7 +125,7 @@
             </div>
 
 
-            <div id="" class="parallax-container section scrollspy">
+            <div class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/sky.jpg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
@@ -213,7 +213,7 @@
                 </div>
             </div>
 
-            <div id="" class="parallax-container section scrollspy">
+            <div class="parallax-container section scrollspy">
                 <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
@@ -345,6 +345,12 @@
             $("#link3").addClass("active");
         });
 
+        $("#link4").click(function (e) {
+            e.preventDefault();
+            $.scrollify.move(4);
+            removeActiveTab();
+            $("#link4").addClass("active");
+        });
 
         $("#link").click(function (e) {
             e.preventDefault();
