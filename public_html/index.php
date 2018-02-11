@@ -21,7 +21,8 @@
                         <li><a id="link0" href="#introduction">Splash</a></li>
                         <li><a id="link1" href="#second">Skills</a></li>
                         <li><a id="link2" href="#third">Experience</a></li>
-                        <li><a id="link3" href="#fourth">Fourth</a></li>
+                        <li><a id="link3" href="#fourth">IoT work</a></li>
+                        <li><a id="link4" href="#fifth">Erlang work</a></li>
                     </ul>
                 </div>
             </ul>
@@ -42,7 +43,7 @@
                     <div class ="side-barjack1 hide-on-small-only"></div>
                     <div id="second" class=" container section scrollspy center" style=" width: 60%; margin-top: 10%; margin-bottom: 5%; ">
                         <div class=" center">
-                            <div class=" grey white-text z-depth-5 tooltipped" data-tooltip='Mouse-over a logo to learn more' href="#one!">
+                            <div class=" grey white-text z-depth-5 " href="#one!">
 
                                 <div class="row center-align">
                                     <div class="col s12"><h3 >Technical skills</h3></div>
@@ -215,9 +216,35 @@
             <div  class="parallax-container">
                 <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
                 <div class="valign-wrapper valign-demo ">
-                    <div id="fourth" class="container section scrollspy ">
-                        <h1 class="header center white-text">Jack Noone</h1>
-                        <h5 class ="center white-text"> Computer Science undergraduate</h5>
+                    <div class ="side-barjack2 hide-on-small-only"></div>
+                    <div id="fourth" class="container section center-align scrollspy">
+                        <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
+                        <div class="row fixed"style="margin-top: 10px;">
+                            <div class="card-panel white">
+                                <iframe class="col 6" width="560" height="315" src="https://www.youtube.com/embed/skvx_kblwjw?rel=0" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe>
+                                <div class ="center flow-text ltext">I recorded, edited and voiced this video which was submitted as part of a group assignment for the "Internet of Things" module I took in
+                                    the first term of my final year. The task involved taking simulated sensor data from a University database via JSON and displaying it. The system earned a 21/25 grade, and I personally averaged 83% for the module as a whole.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="parallax-container">
+                <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
+                <div class="valign-wrapper valign-demo ">
+                    <div class ="side-barjack2 hide-on-small-only"></div>
+                    <div id="fifth" class="container section center-align scrollspy">
+                        <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
+                        <div class="row fixed"style="margin-top: 10px;">
+                            <div class="card-panel white">
+                                <iframe class="col 6" width="560" height="315" src="https://www.youtube.com/embed/skvx_kblwjw?rel=0" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe>
+                                <div class ="center flow-text ltext">I recorded, edited and voiced this video which was submitted as part of a group assignment for the "Internet of Things" module I took in
+                                    the first term of my final year. The task involved taking simulated sensor data from a University database via JSON and displaying it. The system earned a 21/25 grade, and I personally averaged 83% for the module as a whole.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -268,7 +295,7 @@
 
                 $("#link").click(function (e) {
                     e.preventDefault();
-                    $.scrollify.move(3);
+                    $.scrollify.move(4);
                 });
 
 
