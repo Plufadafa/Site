@@ -18,11 +18,11 @@
             <ul id="slide-out" class=" side-nav fixed container">
                 <div class="col hide-on-small-only m3 l2 right-align">
                     <ul class="section table-of-contents">
-                        <li><a id="link0" href="#introduction">Splash</a></li>
-                        <li><a id="link1" href="#second">Skills</a></li>
-                        <li><a id="link2" href="#third">Experience</a></li>
-                        <li><a id="link3" href="#fourth">IoT work</a></li>
-                        <li><a id="link4" href="#fifth">Erlang work</a></li>
+                        <li><a id="link0" class="scroll" href="#1">Splash</a></li>
+                        <li><a id="link1" class="scroll" href="#2">Skills</a></li>
+                        <li><a id="link2" class="scroll" href="#3">Experience</a></li>
+                        <li><a id="link3" class="scroll" href="#4">IoT work</a></li>
+                        <li><a id="link4" class="scroll" href="fifth">Erlang work</a></li>
                     </ul>
                 </div>
             </ul>
@@ -169,7 +169,7 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4 ">3 years learning<i class="material-icons right">close</i></span>
                                 <p class="flow-text">I've had a successful time at University so far. I achieved a first in 2nd year, as well as a strong 1st in my year in industry report. I’m predicted to achieve a first for my final year at university having scored highly in all my coursework thus-far.
-                                    You can view some examples of my work that I’ve produced over the years <a id="link" href="#fourth">here</a>. All of these examples scored highly when marked and stand out to me as interesting programming challenges. 
+                                    You can view some examples of my work that I’ve produced over the years <a id="link" href="fourth">here</a>. All of these examples scored highly when marked and stand out to me as interesting programming challenges. 
                                     <br/>
                                     My final year project has been a big focus this year, and in my group I’ve taken the roll of chief 
                                     software developer. Having been introducing to JIRA on my industry year, I took it upon myself to purchase a licence for myself; using it daily along with my team to manage sprints.
@@ -217,7 +217,8 @@
                 <div class="parallax example-classname"><img src="images/grass.jpeg"></div>
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
-                    <div id="fourth" class="container section center-align scrollspy">
+                    <div id="fourth" class="container center-align scrollspy">
+                        <section data-section-name="f"></section>
                         <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
                         <div class="row fixed"style="margin-top: 10px;">
                             <div class="card-panel white">
@@ -237,7 +238,7 @@
                     <div class ="side-barjack2 hide-on-small-only"></div>
                     <div id="fifth" class="container section center-align scrollspy">
                         <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
-                        <div class="row fixed"style="margin-top: 10px;">
+                        <div class="row "style="margin-top: 10px;">
                             <div class="card-panel white">
                                 <iframe class="col 6" width="560" height="315" src="https://www.youtube.com/embed/skvx_kblwjw?rel=0" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe>
                                 <div class ="center flow-text ltext">I recorded, edited and voiced this video which was submitted as part of a group assignment for the "Internet of Things" module I took in
@@ -295,7 +296,7 @@
 
                 $("#link").click(function (e) {
                     e.preventDefault();
-                    $.scrollify.move(4);
+                    $.scrollify.move(3);
                 });
 
 

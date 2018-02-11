@@ -9,7 +9,9 @@
 <script src="js/Chart.bundle.js"></script>
 <script src="js/hasScrollbar.js"></script>
 
-<script src="js/jquery.scrollify.js"></script>    
+<script src="js/jquery.scrollify.js"></script>   
+<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
+<script src="js/jquery.fullPage.js"></script>
 
 <script>
                 $(document).ready(function () {
