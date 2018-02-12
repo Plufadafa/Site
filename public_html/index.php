@@ -237,12 +237,17 @@
                 <div class="valign-wrapper valign-demo ">
                     <div class ="side-barjack2 hide-on-small-only"></div>
                     <div id="fifth" class="container section center-align scrollspy">
-                        <h3 class="header center" style="color: #2e2e2e;">Internet of Things assignment</h3>
-                        <div class="row "style="margin-top: 10px;">
-                            <div class="card-panel white">
-                                <iframe class="col 6" width="560" height="315" src="https://www.youtube.com/embed/skvx_kblwjw?rel=0" frameborder="0" allow=" encrypted-media" allowfullscreen></iframe>
-                                <div class ="center flow-text ltext">I recorded, edited and voiced this video which was submitted as part of a group assignment for the "Internet of Things" module I took in
-                                    the first term of my final year. The task involved taking simulated sensor data from a University database via JSON and displaying it. The system earned a 21/25 grade, and I personally averaged 83% for the module as a whole.
+                        <h3 class="header center" style="color: #2e2e2e;">Dining Philosophers</h3>
+                        <div class="row "style="margin-top: 10px; ">
+                            <div class="card-panel white ltext" style="max-height: 600px; overflow-y: scroll;">
+                                <iframe class="col 6" width="560" height="315" src="https://www.youtube.com/embed/_NM9KE5jisw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <div class ="center flow-text ">
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                                 </div>
                             </div>
                         </div>
@@ -269,7 +274,7 @@
                     section: ".example-classname",
                     scrollSpeed: 1500,
                     scrollbars: false,
-                    overflowScroll: false,
+                    overflowScroll: true,
                     standardScrollElements: ".longText",
                     before: function (nextIndex, elements) {
                         removeActiveTab();
@@ -284,16 +289,6 @@
             });
 
 
-            $.scrollify({
-                section: ".panel",
-                before: function (nextIndex, elements) {
-                    alert('before event was sent');
-                },
-                after: function (index) {
-                    alert('after is triggered here');
-                }
-            });
-
 
 
 
@@ -307,7 +302,7 @@
             $('.modal').modal();
 
             $("div").each(function () {
-                if ($(this).hasScrollbar() && $(this).hasClass("card-reveal")) {
+                if ($(this).hasScrollbar() && ($(this).hasClass("card-reveal") || $(this).hasClass("ltext"))) {
                     $(this).addClass('longText');
                 }
             });
